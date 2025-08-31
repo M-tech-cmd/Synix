@@ -28,7 +28,7 @@ A **Premium Landing Page & Business Portfolio** built with modern web technologi
 ## 🗂 Folder Structure
 
 ```
-syntax/
+synix/
 ├─ client/      # React + Vite frontend
 ├─ server/      # Supabase configs & API routes
 └─ README.md
