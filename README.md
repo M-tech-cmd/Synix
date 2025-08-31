@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# Synix 💻✨
 
-## Project info
+A **Premium Landing Page & Business Portfolio** built with modern web technologies, featuring a **Supabase backend**, smooth UI with **shadcn-ui**, and a responsive design powered by **TailwindCSS**.
 
-**URL**: https://lovable.dev/projects/308fb476-705f-47b6-8d98-25f5e55a91e1
+[![Copy](https://img.shields.io/badge/-Copy-success?style=for-the-badge)](#)
+[![Download](https://img.shields.io/badge/-Download-blue?style=for-the-badge)](#)
+[![Edit](https://img.shields.io/badge/-Edit-orange?style=for-the-badge)](#)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📋 Features
 
-**Use Lovable**
+* 🌈 **Premium Landing Page** – Clean, modern, and responsive
+* 🏢 **Business Portfolio** – Showcase services, projects, and team
+* 🔐 **Supabase Backend** – Authentication, database, and API integration
+* ⚡ **Blazing Fast** – Built with Vite + TypeScript for speed
+* 🛠 **Customizable** – Easy to adapt and extend with shadcn-ui components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/308fb476-705f-47b6-8d98-25f5e55a91e1) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+**Frontend:** React, TypeScript, Vite, shadcn-ui, Tailwind CSS
+**Backend:** Supabase (Auth, Database, API)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🗂 Folder Structure
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+syntax/
+├─ client/      # React + Vite frontend
+├─ server/      # Supabase configs & API routes
+└─ README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Getting Started
 
-**Use GitHub Codespaces**
+### Prerequisites
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Node.js (>= 16)
+* Supabase account + project setup
 
-## What technologies are used for this project?
+### Installation
 
-This project is built with:
+```bash
+git clone https://github.com/yourusername/syntax.git
+cd syntax
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Install dependencies
+npm install
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/308fb476-705f-47b6-8d98-25f5e55a91e1) and click on Share -> Publish.
+## ⚙️ Environment Variables
 
-## Can I connect a custom domain to my Lovable project?
+Create a `.env` file in the project root:
 
-Yes, you can!
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## ▶️ Running the App
+
+```bash
+# Development
+npm run dev
+
+# Build
+npm run build
+
+# Preview build
+npm run preview
+```
+
+---
+
+## 🧩 Customization
+
+The project uses **shadcn-ui** and Tailwind CSS for styling.
+
+* Edit components inside `/client/src/components`
+* Customize themes in `tailwind.config.js`
+* Update portfolio content in JSON/data files
+
+---
+
+## 🔮 Future Enhancements
+
+* 🌍 Multi-language support
+* 📊 Dashboard for portfolio analytics
+* ✨ Dark/Light mode toggle
+
+---
+
+## 📄 License
+
+**Restrictive License © 2025 M-Tech-cmd**
+
+> This project is for personal and educational purposes only.
+> Commercial use requires explicit permission.
