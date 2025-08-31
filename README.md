@@ -46,8 +46,8 @@ syntax/
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/syntax.git
-cd syntax
+git clone https://github.com/yourusername/synix.git
+cd synix
 
 # Install dependencies
 npm install
